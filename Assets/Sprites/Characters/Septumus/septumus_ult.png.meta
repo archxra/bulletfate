@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 38e418a9c513c614baba40842a84e222
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2613096185953490952
+    second: septumus_ult_0
+  - first:
+      213: 7001262244588269290
+    second: septumus_ult_1
+  - first:
+      213: 2158303205932936365
+    second: septumus_ult_2
+  - first:
+      213: 1527474947524973113
+    second: septumus_ult_3
+  - first:
+      213: -8836509762077051384
+    second: septumus_ult_4
+  - first:
+      213: -1122954292846467338
+    second: septumus_ult_5
+  - first:
+      213: 5508910911156269118
+    second: septumus_ult_6
+  - first:
+      213: -6337760837380514910
+    second: septumus_ult_7
+  - first:
+      213: -3076200503923643116
+    second: septumus_ult_8
+  - first:
+      213: 1021383578218170858
+    second: septumus_ult_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: septumus_ult_0
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 809
+        width: 272
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f760581dda6cbbd0800000000000000
+      internalID: -2613096185953490952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_ult_1
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 459
+        width: 352
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeea90ccaea792160800000000000000
+      internalID: 7001262244588269290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_ult_2
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 809
+        width: 272
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac2833a455d3fd10800000000000000
+      internalID: 2158303205932936365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_ult_3
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 399
+        width: 972
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932d8823f5ea23510800000000000000
+      internalID: 1527474947524973113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_ult_4
+      rect:
+        serializedVersion: 2
+        x: 4809
+        y: 409
+        width: 1082
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806302170396e5580800000000000000
+      internalID: -8836509762077051384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_ult_5
+      rect:
+        serializedVersion: 2
+        x: 5109
+        y: 809
+        width: 272
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6e2e335077a60f0800000000000000
+      internalID: -1122954292846467338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_ult_6
+      rect:
+        serializedVersion: 2
+        x: 6309
+        y: 409
+        width: 1082
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e303eb64945937c40800000000000000
+      internalID: 5508910911156269118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_ult_7
+      rect:
+        serializedVersion: 2
+        x: 7809
+        y: 399
+        width: 1082
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab5d88e810cb08a0800000000000000
+      internalID: -6337760837380514910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_ult_8
+      rect:
+        serializedVersion: 2
+        x: 9309
+        y: 409
+        width: 1102
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41de0c9a0f32f45d0800000000000000
+      internalID: -3076200503923643116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_ult_9
+      rect:
+        serializedVersion: 2
+        x: 10809
+        y: 399
+        width: 1082
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae98c1fe3feac2e00800000000000000
+      internalID: 1021383578218170858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      septumus_ult_0: -2613096185953490952
+      septumus_ult_1: 7001262244588269290
+      septumus_ult_2: 2158303205932936365
+      septumus_ult_3: 1527474947524973113
+      septumus_ult_4: -8836509762077051384
+      septumus_ult_5: -1122954292846467338
+      septumus_ult_6: 5508910911156269118
+      septumus_ult_7: -6337760837380514910
+      septumus_ult_8: -3076200503923643116
+      septumus_ult_9: 1021383578218170858
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

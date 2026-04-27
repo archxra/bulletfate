@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: d7b9c77977a16754487622a699e33dc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6112974706329778687
+    second: diego_gun_reload_0
+  - first:
+      213: 1970747811709185098
+    second: diego_gun_reload_1
+  - first:
+      213: -9200180576091377472
+    second: diego_gun_reload_2
+  - first:
+      213: 3117063554495705432
+    second: diego_gun_reload_3
+  - first:
+      213: -8266161820520673249
+    second: diego_gun_reload_4
+  - first:
+      213: 3709433559605254687
+    second: diego_gun_reload_5
+  - first:
+      213: 758426714474148214
+    second: diego_gun_reload_6
+  - first:
+      213: -6112853070679254363
+    second: diego_gun_reload_7
+  - first:
+      213: 7411455739450625543
+    second: diego_gun_reload_8
+  - first:
+      213: -2071348141679284394
+    second: diego_gun_reload_9
+  - first:
+      213: -8018098614828908735
+    second: diego_gun_reload_10
+  - first:
+      213: -5402965699273662767
+    second: diego_gun_reload_11
+  - first:
+      213: -1030076309802387174
+    second: diego_gun_reload_12
+  - first:
+      213: -5084503068932749872
+    second: diego_gun_reload_13
+  - first:
+      213: -2790858798616408896
+    second: diego_gun_reload_14
+  - first:
+      213: -913732240143668421
+    second: diego_gun_reload_15
+  - first:
+      213: 3406430509805709125
+    second: diego_gun_reload_16
+  - first:
+      213: 8442589446344602027
+    second: diego_gun_reload_17
+  - first:
+      213: -751607780905449087
+    second: diego_gun_reload_18
+  - first:
+      213: 4447727521966216308
+    second: diego_gun_reload_19
+  - first:
+      213: -8386591214710674398
+    second: diego_gun_reload_20
+  - first:
+      213: 1241191213701803937
+    second: diego_gun_reload_21
+  - first:
+      213: 5124572226990356132
+    second: diego_gun_reload_22
+  - first:
+      213: -2412879905496349219
+    second: diego_gun_reload_23
+  - first:
+      213: -7215196077682482047
+    second: diego_gun_reload_24
+  - first:
+      213: -4734274802154647564
+    second: diego_gun_reload_25
+  - first:
+      213: 8246244539621424335
+    second: diego_gun_reload_26
+  - first:
+      213: -6664637243527238645
+    second: diego_gun_reload_27
+  - first:
+      213: 7942436089232932554
+    second: diego_gun_reload_28
+  - first:
+      213: 2026474047938609835
+    second: diego_gun_reload_29
+  - first:
+      213: -711821154752941692
+    second: diego_gun_reload_30
+  - first:
+      213: 6189994954899045635
+    second: diego_gun_reload_31
+  - first:
+      213: 2505591632885365242
+    second: diego_gun_reload_32
+  - first:
+      213: 9069313996920321008
+    second: diego_gun_reload_33
+  - first:
+      213: 317263193708004420
+    second: diego_gun_reload_34
+  - first:
+      213: -8107107421160789547
+    second: diego_gun_reload_35
+  - first:
+      213: 7460818823176156234
+    second: diego_gun_reload_36
+  - first:
+      213: -4599340624411180165
+    second: diego_gun_reload_37
+  - first:
+      213: 5788235786660175834
+    second: diego_gun_reload_38
+  - first:
+      213: -8298128101382858948
+    second: diego_gun_reload_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: diego_gun_reload_0
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106044c74e95a2ba0800000000000000
+      internalID: -6112974706329778687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_1
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cedca71b0895b10800000000000000
+      internalID: 1970747811709185098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_2
+      rect:
+        serializedVersion: 2
+        x: 5099
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0ff9cb284625080800000000000000
+      internalID: -9200180576091377472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_3
+      rect:
+        serializedVersion: 2
+        x: 5899
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8517804b9c8024b20800000000000000
+      internalID: 3117063554495705432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_4
+      rect:
+        serializedVersion: 2
+        x: 6109
+        y: 639
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1018f7ce91b84d80800000000000000
+      internalID: -8266161820520673249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_5
+      rect:
+        serializedVersion: 2
+        x: 6699
+        y: 49
+        width: 192
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a1f264b2e8a7330800000000000000
+      internalID: 3709433559605254687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_6
+      rect:
+        serializedVersion: 2
+        x: 7499
+        y: 39
+        width: 192
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671f5681419768a00800000000000000
+      internalID: 758426714474148214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_7
+      rect:
+        serializedVersion: 2
+        x: 8299
+        y: 49
+        width: 192
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aad10ef488ca2ba0800000000000000
+      internalID: -6112853070679254363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_8
+      rect:
+        serializedVersion: 2
+        x: 9099
+        y: 39
+        width: 192
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e0c7a3ab7cad660800000000000000
+      internalID: 7411455739450625543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_9
+      rect:
+        serializedVersion: 2
+        x: 9899
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f6a01f6d71143e0800000000000000
+      internalID: -2071348141679284394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_10
+      rect:
+        serializedVersion: 2
+        x: 10109
+        y: 639
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f3211aacdf9b090800000000000000
+      internalID: -8018098614828908735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_11
+      rect:
+        serializedVersion: 2
+        x: 10699
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de5c29925fc405b0800000000000000
+      internalID: -5402965699273662767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_12
+      rect:
+        serializedVersion: 2
+        x: 11499
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19fea6cd0f64b1f0800000000000000
+      internalID: -1030076309802387174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_13
+      rect:
+        serializedVersion: 2
+        x: 12299
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d541ecc5673079b0800000000000000
+      internalID: -5084503068932749872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_14
+      rect:
+        serializedVersion: 2
+        x: 12509
+        y: 679
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc023295b0e449d0800000000000000
+      internalID: -2790858798616408896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_15
+      rect:
+        serializedVersion: 2
+        x: 13099
+        y: 49
+        width: 192
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b2a666e55c153f0800000000000000
+      internalID: -913732240143668421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_16
+      rect:
+        serializedVersion: 2
+        x: 13899
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547a5092082164f20800000000000000
+      internalID: 3406430509805709125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_17
+      rect:
+        serializedVersion: 2
+        x: 14699
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1f4d5ee5a1a2570800000000000000
+      internalID: 8442589446344602027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_18
+      rect:
+        serializedVersion: 2
+        x: 15499
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18906b894b0c195f0800000000000000
+      internalID: -751607780905449087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_19
+      rect:
+        serializedVersion: 2
+        x: 16299
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474568cbd9089bd30800000000000000
+      internalID: 4447727521966216308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_20
+      rect:
+        serializedVersion: 2
+        x: 16449
+        y: 519
+        width: 122
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c22ca69b7dc9b80800000000000000
+      internalID: -8386591214710674398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_21
+      rect:
+        serializedVersion: 2
+        x: 17099
+        y: 49
+        width: 192
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af280f25d8993110800000000000000
+      internalID: 1241191213701803937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_22
+      rect:
+        serializedVersion: 2
+        x: 17899
+        y: 49
+        width: 192
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6b79f0a432e1740800000000000000
+      internalID: 5124572226990356132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_23
+      rect:
+        serializedVersion: 2
+        x: 18699
+        y: 49
+        width: 192
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5463b828ab38ed0800000000000000
+      internalID: -2412879905496349219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_24
+      rect:
+        serializedVersion: 2
+        x: 19499
+        y: 49
+        width: 192
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184a1f425697edb90800000000000000
+      internalID: -7215196077682482047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_25
+      rect:
+        serializedVersion: 2
+        x: 20299
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff4d74962a7c4eb0800000000000000
+      internalID: -4734274802154647564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_26
+      rect:
+        serializedVersion: 2
+        x: 20449
+        y: 519
+        width: 122
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccb323e7bb807270800000000000000
+      internalID: 8246244539621424335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_27
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 99
+        width: 612
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c68bedcb37283a0800000000000000
+      internalID: -6664637243527238645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_28
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 79
+        width: 502
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aceb8f5da83393e60800000000000000
+      internalID: 7942436089232932554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_29
+      rect:
+        serializedVersion: 2
+        x: 5339
+        y: 369
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2cdede86b7f1c10800000000000000
+      internalID: 2026474047938609835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_30
+      rect:
+        serializedVersion: 2
+        x: 11729
+        y: 419
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481b75f5e6a1f16f0800000000000000
+      internalID: -711821154752941692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_31
+      rect:
+        serializedVersion: 2
+        x: 15749
+        y: 399
+        width: 32
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30db7309d9747e550800000000000000
+      internalID: 6189994954899045635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_32
+      rect:
+        serializedVersion: 2
+        x: 20929
+        y: 79
+        width: 502
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9b25e9056a5c220800000000000000
+      internalID: 2505591632885365242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_33
+      rect:
+        serializedVersion: 2
+        x: 21689
+        y: 99
+        width: 612
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3f9e6670dacdd70800000000000000
+      internalID: 9069313996920321008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_34
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 189
+        width: 692
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44485499135276400800000000000000
+      internalID: 317263193708004420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_35
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 159
+        width: 682
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d927c5f0c4cd7f80800000000000000
+      internalID: -8107107421160789547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_36
+      rect:
+        serializedVersion: 2
+        x: 4539
+        y: 159
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4476f8c0372a8760800000000000000
+      internalID: 7460818823176156234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_37
+      rect:
+        serializedVersion: 2
+        x: 10939
+        y: 149
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73c2f8021cdb20c0800000000000000
+      internalID: -4599340624411180165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_38
+      rect:
+        serializedVersion: 2
+        x: 14959
+        y: 129
+        width: 32
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf5514d7c1f35050800000000000000
+      internalID: 5788235786660175834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diego_gun_reload_39
+      rect:
+        serializedVersion: 2
+        x: 22469
+        y: 159
+        width: 682
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c375368057027dc80800000000000000
+      internalID: -8298128101382858948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      diego_gun_reload_0: -6112974706329778687
+      diego_gun_reload_1: 1970747811709185098
+      diego_gun_reload_10: -8018098614828908735
+      diego_gun_reload_11: -5402965699273662767
+      diego_gun_reload_12: -1030076309802387174
+      diego_gun_reload_13: -5084503068932749872
+      diego_gun_reload_14: -2790858798616408896
+      diego_gun_reload_15: -913732240143668421
+      diego_gun_reload_16: 3406430509805709125
+      diego_gun_reload_17: 8442589446344602027
+      diego_gun_reload_18: -751607780905449087
+      diego_gun_reload_19: 4447727521966216308
+      diego_gun_reload_2: -9200180576091377472
+      diego_gun_reload_20: -8386591214710674398
+      diego_gun_reload_21: 1241191213701803937
+      diego_gun_reload_22: 5124572226990356132
+      diego_gun_reload_23: -2412879905496349219
+      diego_gun_reload_24: -7215196077682482047
+      diego_gun_reload_25: -4734274802154647564
+      diego_gun_reload_26: 8246244539621424335
+      diego_gun_reload_27: -6664637243527238645
+      diego_gun_reload_28: 7942436089232932554
+      diego_gun_reload_29: 2026474047938609835
+      diego_gun_reload_3: 3117063554495705432
+      diego_gun_reload_30: -711821154752941692
+      diego_gun_reload_31: 6189994954899045635
+      diego_gun_reload_32: 2505591632885365242
+      diego_gun_reload_33: 9069313996920321008
+      diego_gun_reload_34: 317263193708004420
+      diego_gun_reload_35: -8107107421160789547
+      diego_gun_reload_36: 7460818823176156234
+      diego_gun_reload_37: -4599340624411180165
+      diego_gun_reload_38: 5788235786660175834
+      diego_gun_reload_39: -8298128101382858948
+      diego_gun_reload_4: -8266161820520673249
+      diego_gun_reload_5: 3709433559605254687
+      diego_gun_reload_6: 758426714474148214
+      diego_gun_reload_7: -6112853070679254363
+      diego_gun_reload_8: 7411455739450625543
+      diego_gun_reload_9: -2071348141679284394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

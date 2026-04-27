@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 6ec10bd9c01308b4f91ae5c5c006924e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2828385417721167412
+    second: fernando_gun_reload_0
+  - first:
+      213: 6297193528130923580
+    second: fernando_gun_reload_1
+  - first:
+      213: -6639525258822436137
+    second: fernando_gun_reload_2
+  - first:
+      213: -7154867992468542645
+    second: fernando_gun_reload_3
+  - first:
+      213: 5758147784401092648
+    second: fernando_gun_reload_4
+  - first:
+      213: 2974464415585617503
+    second: fernando_gun_reload_5
+  - first:
+      213: 1536640693947157587
+    second: fernando_gun_reload_6
+  - first:
+      213: -6758692122369789039
+    second: fernando_gun_reload_7
+  - first:
+      213: -8972978172780154022
+    second: fernando_gun_reload_8
+  - first:
+      213: -4189816111642167659
+    second: fernando_gun_reload_9
+  - first:
+      213: 6882429274831949127
+    second: fernando_gun_reload_10
+  - first:
+      213: -1817433034403943037
+    second: fernando_gun_reload_11
+  - first:
+      213: 1545012657998631492
+    second: fernando_gun_reload_12
+  - first:
+      213: -5560397983164075892
+    second: fernando_gun_reload_13
+  - first:
+      213: -8031619822494581513
+    second: fernando_gun_reload_14
+  - first:
+      213: 6509937780187825077
+    second: fernando_gun_reload_15
+  - first:
+      213: -5150738951175948587
+    second: fernando_gun_reload_16
+  - first:
+      213: 7454076666815807352
+    second: fernando_gun_reload_17
+  - first:
+      213: -1265086627979655455
+    second: fernando_gun_reload_18
+  - first:
+      213: 4689828781665041644
+    second: fernando_gun_reload_19
+  - first:
+      213: -2623597814635163918
+    second: fernando_gun_reload_20
+  - first:
+      213: 8013074131777099468
+    second: fernando_gun_reload_21
+  - first:
+      213: 6015947052423061188
+    second: fernando_gun_reload_22
+  - first:
+      213: 3959720804835385512
+    second: fernando_gun_reload_23
+  - first:
+      213: 1723667073423364330
+    second: fernando_gun_reload_24
+  - first:
+      213: 2731347574847007236
+    second: fernando_gun_reload_25
+  - first:
+      213: 1241943522106036492
+    second: fernando_gun_reload_26
+  - first:
+      213: -1228338291803962455
+    second: fernando_gun_reload_27
+  - first:
+      213: -2775827127199949122
+    second: fernando_gun_reload_28
+  - first:
+      213: 6045257696695764208
+    second: fernando_gun_reload_29
+  - first:
+      213: -5967034848408647389
+    second: fernando_gun_reload_30
+  - first:
+      213: -2861793722117306182
+    second: fernando_gun_reload_31
+  - first:
+      213: 6567458572948279299
+    second: fernando_gun_reload_32
+  - first:
+      213: 3454165963194211424
+    second: fernando_gun_reload_33
+  - first:
+      213: 6735930260340711666
+    second: fernando_gun_reload_34
+  - first:
+      213: 9120809522511207999
+    second: fernando_gun_reload_35
+  - first:
+      213: -1534487533885146035
+    second: fernando_gun_reload_36
+  - first:
+      213: 3638006948859408137
+    second: fernando_gun_reload_37
+  - first:
+      213: -6099080014742885844
+    second: fernando_gun_reload_38
+  - first:
+      213: -2474584778886800943
+    second: fernando_gun_reload_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fernando_gun_reload_0
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1c5d0b27e8fb8d0800000000000000
+      internalID: -2828385417721167412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_1
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ce12e5620246750800000000000000
+      internalID: 6297193528130923580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_2
+      rect:
+        serializedVersion: 2
+        x: 5099
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dab7ae64faabd3a0800000000000000
+      internalID: -6639525258822436137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_3
+      rect:
+        serializedVersion: 2
+        x: 5899
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ba91e087dc4bc90800000000000000
+      internalID: -7154867992468542645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_4
+      rect:
+        serializedVersion: 2
+        x: 6109
+        y: 639
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8200e65e6ec09ef40800000000000000
+      internalID: 5758147784401092648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_5
+      rect:
+        serializedVersion: 2
+        x: 6699
+        y: 49
+        width: 192
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56450860ab674920800000000000000
+      internalID: 2974464415585617503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_6
+      rect:
+        serializedVersion: 2
+        x: 7499
+        y: 39
+        width: 192
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c4126d19e335510800000000000000
+      internalID: 1536640693947157587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_7
+      rect:
+        serializedVersion: 2
+        x: 8299
+        y: 49
+        width: 192
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193fae3e25d4432a0800000000000000
+      internalID: -6758692122369789039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_8
+      rect:
+        serializedVersion: 2
+        x: 9099
+        y: 39
+        width: 192
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53fa1a84e3997380800000000000000
+      internalID: -8972978172780154022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_9
+      rect:
+        serializedVersion: 2
+        x: 9899
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5963c5fe178cad5c0800000000000000
+      internalID: -4189816111642167659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_10
+      rect:
+        serializedVersion: 2
+        x: 10109
+        y: 639
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d8b16f5fc438f50800000000000000
+      internalID: 6882429274831949127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_11
+      rect:
+        serializedVersion: 2
+        x: 10699
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dea4dc84e27c6e0800000000000000
+      internalID: -1817433034403943037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_12
+      rect:
+        serializedVersion: 2
+        x: 11499
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4429d7d93dcf07510800000000000000
+      internalID: 1545012657998631492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_13
+      rect:
+        serializedVersion: 2
+        x: 12299
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80f4bb9e7f75d2b0800000000000000
+      internalID: -5560397983164075892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_14
+      rect:
+        serializedVersion: 2
+        x: 12509
+        y: 679
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc79352354f98090800000000000000
+      internalID: -8031619822494581513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_15
+      rect:
+        serializedVersion: 2
+        x: 13099
+        y: 49
+        width: 192
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b38df18be1f75a50800000000000000
+      internalID: 6509937780187825077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_16
+      rect:
+        serializedVersion: 2
+        x: 13899
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6b364b636e488b0800000000000000
+      internalID: -5150738951175948587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_17
+      rect:
+        serializedVersion: 2
+        x: 14699
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f751e2c33327760800000000000000
+      internalID: 7454076666815807352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_18
+      rect:
+        serializedVersion: 2
+        x: 15499
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e60d212a62817ee0800000000000000
+      internalID: -1265086627979655455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_19
+      rect:
+        serializedVersion: 2
+        x: 16299
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec3c8cdd6e951140800000000000000
+      internalID: 4689828781665041644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_20
+      rect:
+        serializedVersion: 2
+        x: 16449
+        y: 519
+        width: 122
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe0e2120bb179bd0800000000000000
+      internalID: -2623597814635163918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_21
+      rect:
+        serializedVersion: 2
+        x: 17099
+        y: 49
+        width: 192
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6127fb778243f60800000000000000
+      internalID: 8013074131777099468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_22
+      rect:
+        serializedVersion: 2
+        x: 17899
+        y: 49
+        width: 192
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce1c3768ffec7350800000000000000
+      internalID: 6015947052423061188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_23
+      rect:
+        serializedVersion: 2
+        x: 18699
+        y: 49
+        width: 192
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0efeda711c3f630800000000000000
+      internalID: 3959720804835385512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_24
+      rect:
+        serializedVersion: 2
+        x: 19499
+        y: 49
+        width: 192
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0df662212bbe710800000000000000
+      internalID: 1723667073423364330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_25
+      rect:
+        serializedVersion: 2
+        x: 20299
+        y: 49
+        width: 192
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a61e4e522b7e520800000000000000
+      internalID: 2731347574847007236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_26
+      rect:
+        serializedVersion: 2
+        x: 20449
+        y: 519
+        width: 122
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c015a32ad054c3110800000000000000
+      internalID: 1241943522106036492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_27
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 99
+        width: 612
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3c305e4d014fee0800000000000000
+      internalID: -1228338291803962455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_28
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 79
+        width: 502
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe9a5d4fe74a79d0800000000000000
+      internalID: -2775827127199949122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_29
+      rect:
+        serializedVersion: 2
+        x: 5339
+        y: 369
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f44f3398d115e350800000000000000
+      internalID: 6045257696695764208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_30
+      rect:
+        serializedVersion: 2
+        x: 11729
+        y: 419
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329c93a8b65d03da0800000000000000
+      internalID: -5967034848408647389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_31
+      rect:
+        serializedVersion: 2
+        x: 15749
+        y: 399
+        width: 32
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab841cca5cdd848d0800000000000000
+      internalID: -2861793722117306182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_32
+      rect:
+        serializedVersion: 2
+        x: 20929
+        y: 79
+        width: 502
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3001da5b6cc442b50800000000000000
+      internalID: 6567458572948279299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_33
+      rect:
+        serializedVersion: 2
+        x: 21689
+        y: 99
+        width: 612
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c9f6f74a9afef20800000000000000
+      internalID: 3454165963194211424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_34
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 189
+        width: 692
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0a96f12e4da7d50800000000000000
+      internalID: 6735930260340711666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_35
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 159
+        width: 682
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ed745cfef939e70800000000000000
+      internalID: 9120809522511207999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_36
+      rect:
+        serializedVersion: 2
+        x: 4539
+        y: 159
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cb28ec7b764bae0800000000000000
+      internalID: -1534487533885146035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_37
+      rect:
+        serializedVersion: 2
+        x: 10939
+        y: 149
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90fea258b0ccc7230800000000000000
+      internalID: 3638006948859408137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_38
+      rect:
+        serializedVersion: 2
+        x: 14959
+        y: 129
+        width: 32
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ae0987a07bb5ba0800000000000000
+      internalID: -6099080014742885844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fernando_gun_reload_39
+      rect:
+        serializedVersion: 2
+        x: 22469
+        y: 159
+        width: 682
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d91dd7214288add0800000000000000
+      internalID: -2474584778886800943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fernando_gun_reload_0: -2828385417721167412
+      fernando_gun_reload_1: 6297193528130923580
+      fernando_gun_reload_10: 6882429274831949127
+      fernando_gun_reload_11: -1817433034403943037
+      fernando_gun_reload_12: 1545012657998631492
+      fernando_gun_reload_13: -5560397983164075892
+      fernando_gun_reload_14: -8031619822494581513
+      fernando_gun_reload_15: 6509937780187825077
+      fernando_gun_reload_16: -5150738951175948587
+      fernando_gun_reload_17: 7454076666815807352
+      fernando_gun_reload_18: -1265086627979655455
+      fernando_gun_reload_19: 4689828781665041644
+      fernando_gun_reload_2: -6639525258822436137
+      fernando_gun_reload_20: -2623597814635163918
+      fernando_gun_reload_21: 8013074131777099468
+      fernando_gun_reload_22: 6015947052423061188
+      fernando_gun_reload_23: 3959720804835385512
+      fernando_gun_reload_24: 1723667073423364330
+      fernando_gun_reload_25: 2731347574847007236
+      fernando_gun_reload_26: 1241943522106036492
+      fernando_gun_reload_27: -1228338291803962455
+      fernando_gun_reload_28: -2775827127199949122
+      fernando_gun_reload_29: 6045257696695764208
+      fernando_gun_reload_3: -7154867992468542645
+      fernando_gun_reload_30: -5967034848408647389
+      fernando_gun_reload_31: -2861793722117306182
+      fernando_gun_reload_32: 6567458572948279299
+      fernando_gun_reload_33: 3454165963194211424
+      fernando_gun_reload_34: 6735930260340711666
+      fernando_gun_reload_35: 9120809522511207999
+      fernando_gun_reload_36: -1534487533885146035
+      fernando_gun_reload_37: 3638006948859408137
+      fernando_gun_reload_38: -6099080014742885844
+      fernando_gun_reload_39: -2474584778886800943
+      fernando_gun_reload_4: 5758147784401092648
+      fernando_gun_reload_5: 2974464415585617503
+      fernando_gun_reload_6: 1536640693947157587
+      fernando_gun_reload_7: -6758692122369789039
+      fernando_gun_reload_8: -8972978172780154022
+      fernando_gun_reload_9: -4189816111642167659
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

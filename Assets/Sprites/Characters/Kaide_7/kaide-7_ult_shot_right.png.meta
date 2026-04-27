@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: a61c0a80c391d5e48b1fd69ad19f5e6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3927336429995333633
+    second: kaide-7_ult_shot_right_0
+  - first:
+      213: -7570753494016863328
+    second: kaide-7_ult_shot_right_1
+  - first:
+      213: -6706579829390983220
+    second: kaide-7_ult_shot_right_2
+  - first:
+      213: -5984976961389401501
+    second: kaide-7_ult_shot_right_3
+  - first:
+      213: 585978918410195117
+    second: kaide-7_ult_shot_right_4
+  - first:
+      213: 4013248951780562980
+    second: kaide-7_ult_shot_right_5
+  - first:
+      213: -3892162887698928860
+    second: kaide-7_ult_shot_right_6
+  - first:
+      213: -7384102683965393237
+    second: kaide-7_ult_shot_right_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kaide-7_ult_shot_right_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 89
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1089257dca3b08630800000000000000
+      internalID: 3927336429995333633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaide-7_ult_shot_right_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 19
+        width: 323
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3d31b0fc74fe690800000000000000
+      internalID: -7570753494016863328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaide-7_ult_shot_right_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 89
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfb95b9d217de2a0800000000000000
+      internalID: -6706579829390983220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaide-7_ult_shot_right_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 29
+        width: 323
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aec73d92711fca0800000000000000
+      internalID: -5984976961389401501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaide-7_ult_shot_right_4
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 89
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da015bdb8b0d12800800000000000000
+      internalID: 585978918410195117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaide-7_ult_shot_right_5
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 19
+        width: 323
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428d61698ace1b730800000000000000
+      internalID: 4013248951780562980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaide-7_ult_shot_right_6
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 89
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b2fb6a9724cf9c0800000000000000
+      internalID: -3892162887698928860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaide-7_ult_shot_right_7
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 19
+        width: 323
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6fb394bb5668990800000000000000
+      internalID: -7384102683965393237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kaide-7_ult_shot_right_0: 3927336429995333633
+      kaide-7_ult_shot_right_1: -7570753494016863328
+      kaide-7_ult_shot_right_2: -6706579829390983220
+      kaide-7_ult_shot_right_3: -5984976961389401501
+      kaide-7_ult_shot_right_4: 585978918410195117
+      kaide-7_ult_shot_right_5: 4013248951780562980
+      kaide-7_ult_shot_right_6: -3892162887698928860
+      kaide-7_ult_shot_right_7: -7384102683965393237
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

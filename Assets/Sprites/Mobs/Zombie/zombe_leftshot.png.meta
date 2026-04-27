@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 610245b2552aa7a42982315e1077cec3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3711993662898815683
+    second: zombe_leftshot_0
+  - first:
+      213: 1115001875110219517
+    second: zombe_leftshot_1
+  - first:
+      213: -6971934012020332055
+    second: zombe_leftshot_2
+  - first:
+      213: -9118364693139007549
+    second: zombe_leftshot_3
+  - first:
+      213: -7608143973396121421
+    second: zombe_leftshot_4
+  - first:
+      213: 7406667309652004315
+    second: zombe_leftshot_5
+  - first:
+      213: -7080897478840229621
+    second: zombe_leftshot_6
+  - first:
+      213: 520562953257276507
+    second: zombe_leftshot_7
+  - first:
+      213: 5950432317841608165
+    second: zombe_leftshot_8
+  - first:
+      213: -143724625580768582
+    second: zombe_leftshot_9
+  - first:
+      213: 7877971536826728352
+    second: zombe_leftshot_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zombe_leftshot_0
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 29
+        width: 212
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2c595c196a38330800000000000000
+      internalID: 3711993662898815683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombe_leftshot_1
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 29
+        width: 212
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfec6d14c48497f00800000000000000
+      internalID: 1115001875110219517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombe_leftshot_2
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 29
+        width: 232
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9601874f6be3f90800000000000000
+      internalID: -6971934012020332055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombe_leftshot_3
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 159
+        width: 132
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c75cfc6f9f057180800000000000000
+      internalID: -9118364693139007549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombe_leftshot_4
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 29
+        width: 232
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8f1b9ad517a6690800000000000000
+      internalID: -7608143973396121421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombe_leftshot_5
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 99
+        width: 292
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd4e490da4c9c660800000000000000
+      internalID: 7406667309652004315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombe_leftshot_6
+      rect:
+        serializedVersion: 2
+        x: 3679
+        y: 29
+        width: 232
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01e4ca52499bbd90800000000000000
+      internalID: -7080897478840229621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombe_leftshot_7
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 39
+        width: 372
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54d0287f39693700800000000000000
+      internalID: 520562953257276507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombe_leftshot_8
+      rect:
+        serializedVersion: 2
+        x: 4479
+        y: 29
+        width: 232
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed04f49aae249250800000000000000
+      internalID: 5950432317841608165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombe_leftshot_9
+      rect:
+        serializedVersion: 2
+        x: 4819
+        y: 19
+        width: 472
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab248cae633610ef0800000000000000
+      internalID: -143724625580768582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombe_leftshot_10
+      rect:
+        serializedVersion: 2
+        x: 5279
+        y: 29
+        width: 232
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aff13b9f5d245d60800000000000000
+      internalID: 7877971536826728352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      zombe_leftshot_0: 3711993662898815683
+      zombe_leftshot_1: 1115001875110219517
+      zombe_leftshot_10: 7877971536826728352
+      zombe_leftshot_2: -6971934012020332055
+      zombe_leftshot_3: -9118364693139007549
+      zombe_leftshot_4: -7608143973396121421
+      zombe_leftshot_5: 7406667309652004315
+      zombe_leftshot_6: -7080897478840229621
+      zombe_leftshot_7: 520562953257276507
+      zombe_leftshot_8: 5950432317841608165
+      zombe_leftshot_9: -143724625580768582
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

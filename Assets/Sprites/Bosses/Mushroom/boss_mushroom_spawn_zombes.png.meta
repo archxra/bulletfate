@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 879ad144f3de8384a8ede6d595c50761
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7583997008143287624
+    second: boss_mushroom_spawn_zombes_0
+  - first:
+      213: 6651272978644913664
+    second: boss_mushroom_spawn_zombes_1
+  - first:
+      213: -6093862739915099178
+    second: boss_mushroom_spawn_zombes_2
+  - first:
+      213: 1087744304274327392
+    second: boss_mushroom_spawn_zombes_3
+  - first:
+      213: -8667676704692340461
+    second: boss_mushroom_spawn_zombes_4
+  - first:
+      213: -6252105328022072252
+    second: boss_mushroom_spawn_zombes_5
+  - first:
+      213: 6423768575031305589
+    second: boss_mushroom_spawn_zombes_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_mushroom_spawn_zombes_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 702
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba7eff17ea30c690800000000000000
+      internalID: -7583997008143287624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_mushroom_spawn_zombes_1
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 0
+        width: 712
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ec84cb8811e4c50800000000000000
+      internalID: 6651272978644913664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_mushroom_spawn_zombes_2
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 0
+        width: 702
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d33f5def104e6ba0800000000000000
+      internalID: -6093862739915099178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_mushroom_spawn_zombes_3
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 0
+        width: 702
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067c9be7ea1781f00800000000000000
+      internalID: 1087744304274327392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_mushroom_spawn_zombes_4
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 0
+        width: 692
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31972ecd5f936b780800000000000000
+      internalID: -8667676704692340461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_mushroom_spawn_zombes_5
+      rect:
+        serializedVersion: 2
+        x: 4039
+        y: 0
+        width: 702
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444dae8445f0c39a0800000000000000
+      internalID: -6252105328022072252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_mushroom_spawn_zombes_6
+      rect:
+        serializedVersion: 2
+        x: 4829
+        y: 0
+        width: 712
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575ee020c7fc52950800000000000000
+      internalID: 6423768575031305589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss_mushroom_spawn_zombes_0: -7583997008143287624
+      boss_mushroom_spawn_zombes_1: 6651272978644913664
+      boss_mushroom_spawn_zombes_2: -6093862739915099178
+      boss_mushroom_spawn_zombes_3: 1087744304274327392
+      boss_mushroom_spawn_zombes_4: -8667676704692340461
+      boss_mushroom_spawn_zombes_5: -6252105328022072252
+      boss_mushroom_spawn_zombes_6: 6423768575031305589
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

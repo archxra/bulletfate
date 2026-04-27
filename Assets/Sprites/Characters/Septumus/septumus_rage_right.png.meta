@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 3c6a4ecd227b6314bb3fd3c50ce9d284
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5963754421071283437
+    second: septumus_rage_right_0
+  - first:
+      213: 3014730463273656342
+    second: septumus_rage_right_1
+  - first:
+      213: -4485963962441447775
+    second: septumus_rage_right_2
+  - first:
+      213: 7459016859565057040
+    second: septumus_rage_right_3
+  - first:
+      213: 9157501819829011384
+    second: septumus_rage_right_4
+  - first:
+      213: 6010057612359172481
+    second: septumus_rage_right_5
+  - first:
+      213: 1371086734872451917
+    second: septumus_rage_right_6
+  - first:
+      213: -7793676226403813294
+    second: septumus_rage_right_7
+  - first:
+      213: -2351297586258663327
+    second: septumus_rage_right_8
+  - first:
+      213: 3884095185837644170
+    second: septumus_rage_right_9
+  - first:
+      213: 6003332490916395476
+    second: septumus_rage_right_10
+  - first:
+      213: 2196258227225996423
+    second: septumus_rage_right_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: septumus_rage_right_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 19
+        width: 273
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de48e937c0383c250800000000000000
+      internalID: 5963754421071283437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_rage_right_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 19
+        width: 273
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610a9f4326976d920800000000000000
+      internalID: 3014730463273656342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_rage_right_2
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 19
+        width: 273
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a649773b87aeb1c0800000000000000
+      internalID: -4485963962441447775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_rage_right_3
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 349
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01466007050c38760800000000000000
+      internalID: 7459016859565057040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_rage_right_4
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 19
+        width: 273
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3c6e8f26bf51f70800000000000000
+      internalID: 9157501819829011384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_rage_right_5
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 349
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1810d484e83086350800000000000000
+      internalID: 6010057612359172481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_rage_right_6
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 199
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b925cfe14170310800000000000000
+      internalID: 1371086734872451917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_rage_right_7
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 199
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2583bc6c3cc47d390800000000000000
+      internalID: -7793676226403813294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_rage_right_8
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 169
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168a1d19d438e5fd0800000000000000
+      internalID: -2351297586258663327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_rage_right_9
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 169
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8958a12ef317e530800000000000000
+      internalID: 3884095185837644170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_rage_right_10
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 119
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9f1ade71f105350800000000000000
+      internalID: 6003332490916395476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: septumus_rage_right_11
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 109
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ca5dca83daa7e10800000000000000
+      internalID: 2196258227225996423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      septumus_rage_right_0: 5963754421071283437
+      septumus_rage_right_1: 3014730463273656342
+      septumus_rage_right_10: 6003332490916395476
+      septumus_rage_right_11: 2196258227225996423
+      septumus_rage_right_2: -4485963962441447775
+      septumus_rage_right_3: 7459016859565057040
+      septumus_rage_right_4: 9157501819829011384
+      septumus_rage_right_5: 6010057612359172481
+      septumus_rage_right_6: 1371086734872451917
+      septumus_rage_right_7: -7793676226403813294
+      septumus_rage_right_8: -2351297586258663327
+      septumus_rage_right_9: 3884095185837644170
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

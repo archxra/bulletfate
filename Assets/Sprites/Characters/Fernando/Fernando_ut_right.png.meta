@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 69813da4f32750e4299cb8854c93e9b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7042747090989786495
+    second: Fernando_ut_right_0
+  - first:
+      213: 8959326434204006905
+    second: Fernando_ut_right_1
+  - first:
+      213: -2352888851630746053
+    second: Fernando_ut_right_2
+  - first:
+      213: -5676447253746509209
+    second: Fernando_ut_right_3
+  - first:
+      213: -5456167502655015574
+    second: Fernando_ut_right_4
+  - first:
+      213: 2822145990900037129
+    second: Fernando_ut_right_5
+  - first:
+      213: 7219590169431156985
+    second: Fernando_ut_right_6
+  - first:
+      213: -8458426333943417523
+    second: Fernando_ut_right_7
+  - first:
+      213: -4792408320148039269
+    second: Fernando_ut_right_8
+  - first:
+      213: -8996914520076233463
+    second: Fernando_ut_right_9
+  - first:
+      213: -994171085977382238
+    second: Fernando_ut_right_10
+  - first:
+      213: 2219947731013026989
+    second: Fernando_ut_right_11
+  - first:
+      213: 7717357364928445526
+    second: Fernando_ut_right_12
+  - first:
+      213: -8033856163955689643
+    second: Fernando_ut_right_13
+  - first:
+      213: 8263239879793539236
+    second: Fernando_ut_right_14
+  - first:
+      213: 5750800148087197443
+    second: Fernando_ut_right_15
+  - first:
+      213: -4915184374808062047
+    second: Fernando_ut_right_16
+  - first:
+      213: -9202677678016012545
+    second: Fernando_ut_right_17
+  - first:
+      213: 112677996132370832
+    second: Fernando_ut_right_18
+  - first:
+      213: -7628246645771103470
+    second: Fernando_ut_right_19
+  - first:
+      213: -1917708621125317740
+    second: Fernando_ut_right_20
+  - first:
+      213: -4888177607496353207
+    second: Fernando_ut_right_21
+  - first:
+      213: 9037555974950509568
+    second: Fernando_ut_right_22
+  - first:
+      213: -8825362250668909487
+    second: Fernando_ut_right_23
+  - first:
+      213: -5805854969805739016
+    second: Fernando_ut_right_24
+  - first:
+      213: 1227865119723392434
+    second: Fernando_ut_right_25
+  - first:
+      213: 7421366851858745126
+    second: Fernando_ut_right_26
+  - first:
+      213: 4289133661687991974
+    second: Fernando_ut_right_27
+  - first:
+      213: -3618860939911339980
+    second: Fernando_ut_right_28
+  - first:
+      213: -1170893864799131922
+    second: Fernando_ut_right_29
+  - first:
+      213: -5746582100457240743
+    second: Fernando_ut_right_30
+  - first:
+      213: -4371404244166253254
+    second: Fernando_ut_right_31
+  - first:
+      213: -549301960497584856
+    second: Fernando_ut_right_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fernando_ut_right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 170
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75ac594a2ddcb160800000000000000
+      internalID: 7042747090989786495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_1
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 279
+        width: 302
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f93f716cebe55c70800000000000000
+      internalID: 8959326434204006905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_2
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 279
+        width: 392
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36929a3e0cd85fd0800000000000000
+      internalID: -2352888851630746053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_3
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 269
+        width: 412
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a923e3c453931b0800000000000000
+      internalID: -5676447253746509209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_4
+      rect:
+        serializedVersion: 2
+        x: 5009
+        y: 189
+        width: 532
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65b739709cc744b0800000000000000
+      internalID: -5456167502655015574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_5
+      rect:
+        serializedVersion: 2
+        x: 6249
+        y: 119
+        width: 532
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906b3eb83d64a2720800000000000000
+      internalID: 2822145990900037129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_6
+      rect:
+        serializedVersion: 2
+        x: 7479
+        y: 109
+        width: 522
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8a8d01203213460800000000000000
+      internalID: 7219590169431156985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_7
+      rect:
+        serializedVersion: 2
+        x: 8679
+        y: 109
+        width: 522
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d453e7e5012ad9a80800000000000000
+      internalID: -8458426333943417523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_8
+      rect:
+        serializedVersion: 2
+        x: 9879
+        y: 109
+        width: 842
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9913fa2602fd7db0800000000000000
+      internalID: -4792408320148039269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_9
+      rect:
+        serializedVersion: 2
+        x: 11079
+        y: 109
+        width: 842
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9055d4469e9842380800000000000000
+      internalID: -8996914520076233463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_10
+      rect:
+        serializedVersion: 2
+        x: 11929
+        y: 829
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a29a562aaef332f0800000000000000
+      internalID: -994171085977382238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_11
+      rect:
+        serializedVersion: 2
+        x: 12279
+        y: 109
+        width: 842
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da447f613b6dece10800000000000000
+      internalID: 2219947731013026989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_12
+      rect:
+        serializedVersion: 2
+        x: 13159
+        y: 849
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cfd4592af891b60800000000000000
+      internalID: 7717357364928445526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_13
+      rect:
+        serializedVersion: 2
+        x: 13479
+        y: 109
+        width: 842
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557b6d25262028090800000000000000
+      internalID: -8033856163955689643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_14
+      rect:
+        serializedVersion: 2
+        x: 14679
+        y: 109
+        width: 522
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a87fe0e3ececa270800000000000000
+      internalID: 8263239879793539236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_15
+      rect:
+        serializedVersion: 2
+        x: 15879
+        y: 109
+        width: 522
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f40010442fecf40800000000000000
+      internalID: 5750800148087197443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_16
+      rect:
+        serializedVersion: 2
+        x: 17079
+        y: 149
+        width: 542
+        height: 852
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7d3065ad1c9cbb0800000000000000
+      internalID: -4915184374808062047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_17
+      rect:
+        serializedVersion: 2
+        x: 18299
+        y: 139
+        width: 462
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe5073e865894080800000000000000
+      internalID: -9202677678016012545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_18
+      rect:
+        serializedVersion: 2
+        x: 19469
+        y: 149
+        width: 332
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099097d5a00509100800000000000000
+      internalID: 112677996132370832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_19
+      rect:
+        serializedVersion: 2
+        x: 20539
+        y: 189
+        width: 302
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2139fb38716032690800000000000000
+      internalID: -7628246645771103470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_20
+      rect:
+        serializedVersion: 2
+        x: 21599
+        y: 169
+        width: 232
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b0f176b2ee265e0800000000000000
+      internalID: -1917708621125317740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_21
+      rect:
+        serializedVersion: 2
+        x: 13129
+        y: 829
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a392a5d54b92cb0800000000000000
+      internalID: -4888177607496353207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_22
+      rect:
+        serializedVersion: 2
+        x: 9169
+        y: 639
+        width: 342
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c52a4b649db6d70800000000000000
+      internalID: 9037555974950509568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_23
+      rect:
+        serializedVersion: 2
+        x: 11879
+        y: 659
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cdcb2bac3068580800000000000000
+      internalID: -8825362250668909487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_24
+      rect:
+        serializedVersion: 2
+        x: 13119
+        y: 679
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbea4b6aa57d6fa0800000000000000
+      internalID: -5805854969805739016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_25
+      rect:
+        serializedVersion: 2
+        x: 15169
+        y: 639
+        width: 342
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd843522d04a0110800000000000000
+      internalID: 1227865119723392434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_26
+      rect:
+        serializedVersion: 2
+        x: 13089
+        y: 659
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62746e8e4ddfdf660800000000000000
+      internalID: 7421366851858745126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_27
+      rect:
+        serializedVersion: 2
+        x: 9099
+        y: 449
+        width: 342
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae451b2750168b30800000000000000
+      internalID: 4289133661687991974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_28
+      rect:
+        serializedVersion: 2
+        x: 15099
+        y: 449
+        width: 342
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4306c01162937cdc0800000000000000
+      internalID: -3618860939911339980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_29
+      rect:
+        serializedVersion: 2
+        x: 8999
+        y: 279
+        width: 342
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6a6fecb3620cfe0800000000000000
+      internalID: -1170893864799131922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_30
+      rect:
+        serializedVersion: 2
+        x: 14999
+        y: 279
+        width: 342
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957c0adb60a0040b0800000000000000
+      internalID: -5746582100457240743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_31
+      rect:
+        serializedVersion: 2
+        x: 8929
+        y: 109
+        width: 342
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35e5d82007a553c0800000000000000
+      internalID: -4371404244166253254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fernando_ut_right_32
+      rect:
+        serializedVersion: 2
+        x: 14929
+        y: 109
+        width: 342
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825ad1af6cc7068f0800000000000000
+      internalID: -549301960497584856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fernando_ut_right_0: 7042747090989786495
+      Fernando_ut_right_1: 8959326434204006905
+      Fernando_ut_right_10: -994171085977382238
+      Fernando_ut_right_11: 2219947731013026989
+      Fernando_ut_right_12: 7717357364928445526
+      Fernando_ut_right_13: -8033856163955689643
+      Fernando_ut_right_14: 8263239879793539236
+      Fernando_ut_right_15: 5750800148087197443
+      Fernando_ut_right_16: -4915184374808062047
+      Fernando_ut_right_17: -9202677678016012545
+      Fernando_ut_right_18: 112677996132370832
+      Fernando_ut_right_19: -7628246645771103470
+      Fernando_ut_right_2: -2352888851630746053
+      Fernando_ut_right_20: -1917708621125317740
+      Fernando_ut_right_21: -4888177607496353207
+      Fernando_ut_right_22: 9037555974950509568
+      Fernando_ut_right_23: -8825362250668909487
+      Fernando_ut_right_24: -5805854969805739016
+      Fernando_ut_right_25: 1227865119723392434
+      Fernando_ut_right_26: 7421366851858745126
+      Fernando_ut_right_27: 4289133661687991974
+      Fernando_ut_right_28: -3618860939911339980
+      Fernando_ut_right_29: -1170893864799131922
+      Fernando_ut_right_3: -5676447253746509209
+      Fernando_ut_right_30: -5746582100457240743
+      Fernando_ut_right_31: -4371404244166253254
+      Fernando_ut_right_32: -549301960497584856
+      Fernando_ut_right_4: -5456167502655015574
+      Fernando_ut_right_5: 2822145990900037129
+      Fernando_ut_right_6: 7219590169431156985
+      Fernando_ut_right_7: -8458426333943417523
+      Fernando_ut_right_8: -4792408320148039269
+      Fernando_ut_right_9: -8996914520076233463
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

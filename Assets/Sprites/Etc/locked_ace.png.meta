@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: f5ee5d42ead9aa14d94202e3eb863957
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4727288777503289087
+    second: locked_ace_0
+  - first:
+      213: 1288154079418238396
+    second: locked_ace_1
+  - first:
+      213: -7970738887005476825
+    second: locked_ace_2
+  - first:
+      213: 6339123960466940113
+    second: locked_ace_3
+  - first:
+      213: -217841934399131825
+    second: locked_ace_4
+  - first:
+      213: 5100320654728722318
+    second: locked_ace_5
+  - first:
+      213: -1275024083083223990
+    second: locked_ace_6
+  - first:
+      213: -3865005860234192742
+    second: locked_ace_7
+  - first:
+      213: -7366590201125453898
+    second: locked_ace_8
+  - first:
+      213: -1286002046041723845
+    second: locked_ace_9
+  - first:
+      213: 8752062234922704389
+    second: locked_ace_10
+  - first:
+      213: 1096694095837154348
+    second: locked_ace_11
+  - first:
+      213: -8440069547483610741
+    second: locked_ace_12
+  - first:
+      213: 7980510225223396721
+    second: locked_ace_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: locked_ace_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 39
+        width: 392
+        height: 961
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101d93237eb456eb0800000000000000
+      internalID: -4727288777503289087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_1
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 749
+        width: 122
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5c1bf6f4170e110800000000000000
+      internalID: 1288154079418238396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 39
+        width: 392
+        height: 961
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72865aa863f326190800000000000000
+      internalID: -7970738887005476825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_3
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 749
+        width: 122
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0accae7a719f750800000000000000
+      internalID: 6339123960466940113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_4
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 59
+        width: 392
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fa4f23ae11afcf0800000000000000
+      internalID: -217841934399131825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_5
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 749
+        width: 122
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8771b1ec9af7c640800000000000000
+      internalID: 5100320654728722318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_6
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 39
+        width: 392
+        height: 961
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c91cf0a543e4ee0800000000000000
+      internalID: -1275024083083223990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_7
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 749
+        width: 122
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9810f5d5adbc5ac0800000000000000
+      internalID: -3865005860234192742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_8
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 39
+        width: 392
+        height: 961
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf3b00fd3d94c990800000000000000
+      internalID: -7366590201125453898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_9
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 749
+        width: 122
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ce141e3f3372ee0800000000000000
+      internalID: -1286002046041723845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_10
+      rect:
+        serializedVersion: 2
+        x: 2549
+        y: 49
+        width: 402
+        height: 951
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50edda47b32957970800000000000000
+      internalID: 8752062234922704389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_11
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 749
+        width: 122
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c44a9387d383f00800000000000000
+      internalID: 1096694095837154348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_12
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 39
+        width: 392
+        height: 961
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81c5a6c679deda80800000000000000
+      internalID: -8440069547483610741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locked_ace_13
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 749
+        width: 121
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d20dc64c770ce60800000000000000
+      internalID: 7980510225223396721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      locked_ace_0: -4727288777503289087
+      locked_ace_1: 1288154079418238396
+      locked_ace_10: 8752062234922704389
+      locked_ace_11: 1096694095837154348
+      locked_ace_12: -8440069547483610741
+      locked_ace_13: 7980510225223396721
+      locked_ace_2: -7970738887005476825
+      locked_ace_3: 6339123960466940113
+      locked_ace_4: -217841934399131825
+      locked_ace_5: 5100320654728722318
+      locked_ace_6: -1275024083083223990
+      locked_ace_7: -3865005860234192742
+      locked_ace_8: -7366590201125453898
+      locked_ace_9: -1286002046041723845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 92fa90263be3f16428a64bcd7da825e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8151266072132332748
+    second: Diego_ult_left_0
+  - first:
+      213: 7089757329809687839
+    second: Diego_ult_left_1
+  - first:
+      213: 2030318258910327851
+    second: Diego_ult_left_2
+  - first:
+      213: 1945154612133393479
+    second: Diego_ult_left_3
+  - first:
+      213: -5295889165378363882
+    second: Diego_ult_left_4
+  - first:
+      213: -760509336171006526
+    second: Diego_ult_left_5
+  - first:
+      213: 2898260936797114881
+    second: Diego_ult_left_6
+  - first:
+      213: 3391578410109702862
+    second: Diego_ult_left_7
+  - first:
+      213: -857847881967489056
+    second: Diego_ult_left_8
+  - first:
+      213: 884157782375472844
+    second: Diego_ult_left_9
+  - first:
+      213: 8514455025685553423
+    second: Diego_ult_left_10
+  - first:
+      213: -2182653512542276659
+    second: Diego_ult_left_11
+  - first:
+      213: 3861551629321108654
+    second: Diego_ult_left_12
+  - first:
+      213: 2424895758549587742
+    second: Diego_ult_left_13
+  - first:
+      213: 1250133620400994725
+    second: Diego_ult_left_14
+  - first:
+      213: 2897710699716674286
+    second: Diego_ult_left_15
+  - first:
+      213: 3508623429122907928
+    second: Diego_ult_left_16
+  - first:
+      213: -6228188131434292732
+    second: Diego_ult_left_17
+  - first:
+      213: 9155756140731918439
+    second: Diego_ult_left_18
+  - first:
+      213: 1358354925824204608
+    second: Diego_ult_left_19
+  - first:
+      213: 2709527542498795486
+    second: Diego_ult_left_20
+  - first:
+      213: -836043343062026839
+    second: Diego_ult_left_21
+  - first:
+      213: 1549639700932221506
+    second: Diego_ult_left_22
+  - first:
+      213: 6401849888983753396
+    second: Diego_ult_left_23
+  - first:
+      213: 2103447577611998855
+    second: Diego_ult_left_24
+  - first:
+      213: 171837579507219867
+    second: Diego_ult_left_25
+  - first:
+      213: 5260652870954513090
+    second: Diego_ult_left_26
+  - first:
+      213: -7530524811778525286
+    second: Diego_ult_left_27
+  - first:
+      213: -5024989429908982537
+    second: Diego_ult_left_28
+  - first:
+      213: -5035804766413795047
+    second: Diego_ult_left_29
+  - first:
+      213: 2906984245803941206
+    second: Diego_ult_left_30
+  - first:
+      213: -1005902891644142363
+    second: Diego_ult_left_31
+  - first:
+      213: -7627834695975017703
+    second: Diego_ult_left_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Diego_ult_left_0
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 249
+        width: 171
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc242b2e4d1f1170800000000000000
+      internalID: 8151266072132332748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_1
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 279
+        width: 302
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1547037ab0e36260800000000000000
+      internalID: 7089757329809687839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_2
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 279
+        width: 392
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24f65b03b32d2c10800000000000000
+      internalID: 2030318258910327851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_3
+      rect:
+        serializedVersion: 2
+        x: 4169
+        y: 269
+        width: 413
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7447c6950d39efa10800000000000000
+      internalID: 1945154612133393479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_4
+      rect:
+        serializedVersion: 2
+        x: 5259
+        y: 189
+        width: 533
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e58c7ecd83186b0800000000000000
+      internalID: -5295889165378363882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_5
+      rect:
+        serializedVersion: 2
+        x: 6419
+        y: 119
+        width: 533
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5b821c9c02275f0800000000000000
+      internalID: -760509336171006526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_6
+      rect:
+        serializedVersion: 2
+        x: 7599
+        y: 109
+        width: 523
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102de2467f0b83820800000000000000
+      internalID: 2898260936797114881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_7
+      rect:
+        serializedVersion: 2
+        x: 8799
+        y: 109
+        width: 523
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2197a389e411f20800000000000000
+      internalID: 3391578410109702862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_8
+      rect:
+        serializedVersion: 2
+        x: 9679
+        y: 109
+        width: 843
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efa10c75ef4814f0800000000000000
+      internalID: -857847881967489056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_9
+      rect:
+        serializedVersion: 2
+        x: 10809
+        y: 829
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce13ef81d8254c00800000000000000
+      internalID: 884157782375472844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_10
+      rect:
+        serializedVersion: 2
+        x: 10879
+        y: 109
+        width: 843
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01e60efbbb692670800000000000000
+      internalID: 8514455025685553423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_11
+      rect:
+        serializedVersion: 2
+        x: 12029
+        y: 849
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3b82dc138a5b1e0800000000000000
+      internalID: -2182653512542276659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_12
+      rect:
+        serializedVersion: 2
+        x: 12079
+        y: 109
+        width: 843
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacf38b5fbcf69530800000000000000
+      internalID: 3861551629321108654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_13
+      rect:
+        serializedVersion: 2
+        x: 13279
+        y: 109
+        width: 843
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1713b148d5f6a120800000000000000
+      internalID: 2424895758549587742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_14
+      rect:
+        serializedVersion: 2
+        x: 14799
+        y: 109
+        width: 523
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a936cd77ed595110800000000000000
+      internalID: 1250133620400994725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_15
+      rect:
+        serializedVersion: 2
+        x: 15999
+        y: 109
+        width: 523
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee20676578cb63820800000000000000
+      internalID: 2897710699716674286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_16
+      rect:
+        serializedVersion: 2
+        x: 17179
+        y: 149
+        width: 543
+        height: 852
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fdb775b6221b030800000000000000
+      internalID: 3508623429122907928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_17
+      rect:
+        serializedVersion: 2
+        x: 18439
+        y: 139
+        width: 463
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a1e8f84e70199a0800000000000000
+      internalID: -6228188131434292732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_18
+      rect:
+        serializedVersion: 2
+        x: 19800
+        y: 149
+        width: 332
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7686d6263b7cf0f70800000000000000
+      internalID: 9155756140731918439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_19
+      rect:
+        serializedVersion: 2
+        x: 21160
+        y: 189
+        width: 302
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f57a0bb98d9d210800000000000000
+      internalID: 1358354925824204608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_20
+      rect:
+        serializedVersion: 2
+        x: 22570
+        y: 169
+        width: 230
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf17c7b1fc2a9520800000000000000
+      internalID: 2709527542498795486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_21
+      rect:
+        serializedVersion: 2
+        x: 12029
+        y: 829
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a535ff4207c564f0800000000000000
+      internalID: -836043343062026839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_22
+      rect:
+        serializedVersion: 2
+        x: 8489
+        y: 639
+        width: 342
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a58eff81d618510800000000000000
+      internalID: 1549639700932221506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_23
+      rect:
+        serializedVersion: 2
+        x: 10859
+        y: 659
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2204a3e80f7d850800000000000000
+      internalID: 6401849888983753396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_24
+      rect:
+        serializedVersion: 2
+        x: 12069
+        y: 679
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78618336d62f03d10800000000000000
+      internalID: 2103447577611998855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_25
+      rect:
+        serializedVersion: 2
+        x: 14489
+        y: 639
+        width: 342
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d379d3e5d726200800000000000000
+      internalID: 171837579507219867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_26
+      rect:
+        serializedVersion: 2
+        x: 12069
+        y: 659
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2f1ebf9e7910940800000000000000
+      internalID: 5260652870954513090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_27
+      rect:
+        serializedVersion: 2
+        x: 8559
+        y: 449
+        width: 342
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97fca505933e7790800000000000000
+      internalID: -7530524811778525286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_28
+      rect:
+        serializedVersion: 2
+        x: 14559
+        y: 449
+        width: 342
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4be2eacb6a34ab0800000000000000
+      internalID: -5024989429908982537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_29
+      rect:
+        serializedVersion: 2
+        x: 8659
+        y: 279
+        width: 343
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911dfabee3a3d1ab0800000000000000
+      internalID: -5035804766413795047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_30
+      rect:
+        serializedVersion: 2
+        x: 14659
+        y: 279
+        width: 343
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65dfcca05cea75820800000000000000
+      internalID: 2906984245803941206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_31
+      rect:
+        serializedVersion: 2
+        x: 8729
+        y: 109
+        width: 343
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec330946a05a02f0800000000000000
+      internalID: -1005902891644142363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diego_ult_left_32
+      rect:
+        serializedVersion: 2
+        x: 14729
+        y: 109
+        width: 343
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913620d02cc742690800000000000000
+      internalID: -7627834695975017703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Diego_ult_left_0: 8151266072132332748
+      Diego_ult_left_1: 7089757329809687839
+      Diego_ult_left_10: 8514455025685553423
+      Diego_ult_left_11: -2182653512542276659
+      Diego_ult_left_12: 3861551629321108654
+      Diego_ult_left_13: 2424895758549587742
+      Diego_ult_left_14: 1250133620400994725
+      Diego_ult_left_15: 2897710699716674286
+      Diego_ult_left_16: 3508623429122907928
+      Diego_ult_left_17: -6228188131434292732
+      Diego_ult_left_18: 9155756140731918439
+      Diego_ult_left_19: 1358354925824204608
+      Diego_ult_left_2: 2030318258910327851
+      Diego_ult_left_20: 2709527542498795486
+      Diego_ult_left_21: -836043343062026839
+      Diego_ult_left_22: 1549639700932221506
+      Diego_ult_left_23: 6401849888983753396
+      Diego_ult_left_24: 2103447577611998855
+      Diego_ult_left_25: 171837579507219867
+      Diego_ult_left_26: 5260652870954513090
+      Diego_ult_left_27: -7530524811778525286
+      Diego_ult_left_28: -5024989429908982537
+      Diego_ult_left_29: -5035804766413795047
+      Diego_ult_left_3: 1945154612133393479
+      Diego_ult_left_30: 2906984245803941206
+      Diego_ult_left_31: -1005902891644142363
+      Diego_ult_left_32: -7627834695975017703
+      Diego_ult_left_4: -5295889165378363882
+      Diego_ult_left_5: -760509336171006526
+      Diego_ult_left_6: 2898260936797114881
+      Diego_ult_left_7: 3391578410109702862
+      Diego_ult_left_8: -857847881967489056
+      Diego_ult_left_9: 884157782375472844
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
