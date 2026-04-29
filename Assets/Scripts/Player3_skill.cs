@@ -1,17 +1,19 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Skill_WarCry : MonoBehaviour
 {
     public float radius = 5f;
-    public float duration = 3f; // 3 сек стан по документу
-    public float cooldown = 15f; // 15 сек кд по документу
+    public float duration = 3f;
+    public float cooldown = 15f;
     public LayerMask enemyLayer;
     private float nextUse;
 
     void Update()
     {
+        // ПКМ для крика
         if (Mouse.current.rightButton.wasPressedThisFrame && Time.time >= nextUse)
         {
             Cry();
@@ -21,8 +23,10 @@ public class Skill_WarCry : MonoBehaviour
 
     void Cry()
     {
-        Debug.Log("Гладиатор ОРЕТ!");
+        Debug.Log("ГЛАДИАТОР ОРЕТ!");
+        // Ищем всех врагов в радиусе
         Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, radius, enemyLayer);
+
         foreach (Collider2D e in enemies)
         {
             StartCoroutine(StunEnemy(e.gameObject));
@@ -31,26 +35,49 @@ public class Skill_WarCry : MonoBehaviour
 
     IEnumerator StunEnemy(GameObject enemy)
     {
-        // Находим все скрипты на враге
-        var aiMelee = enemy.GetComponent<EnemyAI_Pathfinder>();
-        var aiShooter = enemy.GetComponent<EnemyAI_AStarShooter>();
-        var contactDamage = enemy.GetComponent<EnemyContactDamage>();
-        var sprite = enemy.GetComponent<SpriteRenderer>();
+        if (enemy == null) yield break;
 
-        // Выключаем всё!
-        if (aiMelee != null) aiMelee.enabled = false;
-        if (aiShooter != null) aiShooter.enabled = false;
-        if (contactDamage != null) contactDamage.enabled = false;
+        // Берем все скрипты, которые висят на враге
+        MonoBehaviour[] allScripts = enemy.GetComponents<MonoBehaviour>();
+        SpriteRenderer sprite = enemy.GetComponent<SpriteRenderer>();
 
-        Color oldColor = sprite.color;
-        sprite.color = Color.gray;
+        // Запоминаем, какие скрипты мы выключили, чтобы потом включить только их
+        List<MonoBehaviour> disabledScripts = new List<MonoBehaviour>();
 
+        foreach (var s in allScripts)
+        {
+            // Выключаем всё, КРОМЕ скрипта здоровья (Health) и самого этого корутин-менеджера
+            // Мы ищем скрипты ИИ по ключевым словам в названиях
+            string scriptName = s.GetType().Name.ToLower();
+            if (scriptName.Contains("ai") || scriptName.Contains("simple") || scriptName.Contains("path") || scriptName.Contains("damage"))
+            {
+                if (s.enabled)
+                {
+                    s.enabled = false;
+                    disabledScripts.Add(s);
+                }
+            }
+        }
+
+        // Визуал стана
+        Color oldColor = Color.white;
+        if (sprite != null)
+        {
+            oldColor = sprite.color;
+            sprite.color = Color.gray;
+        }
+
+        // Ждем 3 секунды
         yield return new WaitForSeconds(duration);
 
-        // Включаем обратно
-        if (aiMelee != null) aiMelee.enabled = true;
-        if (aiShooter != null) aiShooter.enabled = true;
-        if (contactDamage != null) contactDamage.enabled = true;
-        sprite.color = oldColor;
+        // Возвращаем всё как было
+        if (enemy != null)
+        {
+            foreach (var s in disabledScripts)
+            {
+                if (s != null) s.enabled = true;
+            }
+            if (sprite != null) sprite.color = oldColor;
+        }
     }
 }

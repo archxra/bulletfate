@@ -1,60 +1,65 @@
-using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyAI_Pathfinder : MonoBehaviour
+public class Enemy_Smart : MonoBehaviour
 {
-    public float speed = 4f;
-    public float predictionTime = 0.5f;
-    public float wobbleStrength = 0.5f; // Уменьшил для плавности
+    public float speed = 3f;
+    public float attackDistance = 1.5f; // Дистанция, где бьет
+    public Animator anim;
+    public float attackCooldown = 2f;
 
-    private Transform player;
     private Rigidbody2D rb;
-    private List<Vector3> path;
-    private int waypointIndex = 0;
-    private Vector3 smoothedPredictedPos;
+    private Transform player;
+    private float nextAttackTime;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        InvokeRepeating("UpdatePath", 0f, 0.3f);
-    }
-
-    void UpdatePath()
-    {
-        GameObject p = GameObject.FindGameObjectWithTag("Player");
-        if (p == null) return;
-        player = p.transform;
-
-        Vector3 playerVelocity = Vector3.zero;
-        var pRb = player.GetComponent<Rigidbody2D>();
-        if (pRb != null) playerVelocity = pRb.linearVelocity;
-
-        // СГЛАЖИВАНИЕ ПРЕДСКАЗАНИЯ: чтобы точка не прыгала
-        Vector3 targetPos = player.position + (playerVelocity * predictionTime);
-        smoothedPredictedPos = Vector3.Lerp(smoothedPredictedPos, targetPos, 0.2f);
-
-        if (AStar2D.Instance != null)
-        {
-            path = AStar2D.Instance.FindPath(transform.position, smoothedPredictedPos);
-            waypointIndex = 0;
-        }
     }
 
     void FixedUpdate()
     {
+        // 1. Ищем игрока
+        GameObject p = GameObject.FindGameObjectWithTag("Player");
+        if (p == null) { rb.linearVelocity = Vector2.zero; return; }
+        player = p.transform;
 
+        float dist = Vector2.Distance(transform.position, player.position);
+        Vector2 dir = (player.position - transform.position).normalized;
 
-        if (path == null || waypointIndex >= path.Count) return;
+        // 2. Логика боя
+        if (dist <= attackDistance)
+        {
+            // МЫ В ЗОНЕ УДАРА
+            rb.linearVelocity = Vector2.zero;
+            anim.SetBool("isMoving", false);
 
-        Vector3 target = path[waypointIndex];
-        Vector2 dir = (target - transform.position).normalized;
+            if (Time.time >= nextAttackTime)
+            {
+                TriggerAttack();
+                nextAttackTime = Time.time + attackCooldown;
+            }
+        }
+        else
+        {
+            // ИДЕМ К ИГРОКУ
+            rb.linearVelocity = dir * speed;
 
-        // ПЛАВНОЕ ДВИЖЕНИЕ
-        Vector2 wobble = new Vector2(-dir.y, dir.x) * Mathf.Sin(Time.time * 3f) * wobbleStrength;
-        Vector2 finalVelocity = (dir + wobble).normalized * speed;
+            // Анимация ходьбы
+            anim.SetBool("isMoving", true);
 
-        rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, finalVelocity, 0.1f);
+            // Поворот (Flip)
+            if (dir.x != 0)
+                transform.localScale = new Vector3(Mathf.Sign(dir.x) * Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
+    }
 
-        if (Vector2.Distance(transform.position, target) < 0.3f) waypointIndex++;
+    void TriggerAttack()
+    {
+        // Включаем триггер атаки
+        anim.SetTrigger("isAttacking");
+
+        // Наносим урон (можно добавить задержку через корутину, если анимация долгая)
+        player.GetComponent<Health>()?.TakeDamage(2f);
+        Debug.Log("Враг атаковал!");
     }
 }

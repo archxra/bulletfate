@@ -1,47 +1,61 @@
 using UnityEngine;
-using UnityEngine.InputSystem; // Обязательно добавляем эту строку для новой системы!
+using UnityEngine.InputSystem;
 
 public class PlayerController2D : MonoBehaviour
 {
     public float moveSpeed = 5f;
+    public Animator animator;
+    public SpriteRenderer bodyRenderer; // Спрайт героя
+
     private Rigidbody2D rb;
     private Vector2 moveInput;
-    private Vector2 mousePosition;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        // Ищем компоненты строго на самом игроке
+        animator = GetComponent<Animator>();
+        bodyRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        // Проверяем, есть ли вообще клавиатура и мышь
-        if (Keyboard.current == null || Mouse.current == null) return;
+        if (Keyboard.current == null) return;
 
-        // Считываем WASD вручную
-        float moveX = 0f;
-        float moveY = 0f;
+        // Чтение кнопок WASD
+        float moveX = 0;
+        float moveY = 0;
+        if (Keyboard.current.dKey.isPressed) moveX = 1;
+        else if (Keyboard.current.aKey.isPressed) moveX = -1;
 
-        if (Keyboard.current.dKey.isPressed) moveX += 1f;
-        if (Keyboard.current.aKey.isPressed) moveX -= 1f;
-        if (Keyboard.current.wKey.isPressed) moveY += 1f;
-        if (Keyboard.current.sKey.isPressed) moveY -= 1f;
+        if (Keyboard.current.wKey.isPressed) moveY = 1;
+        else if (Keyboard.current.sKey.isPressed) moveY = -1;
 
         moveInput = new Vector2(moveX, moveY);
 
-        // Получаем позицию мыши на экране и переводим в координаты игры
-        Vector2 screenMousePos = Mouse.current.position.ReadValue();
-        mousePosition = Camera.main.ScreenToWorldPoint(screenMousePos);
+        // Передаем в аниматор
+        if (animator != null)
+        {
+            animator.SetBool("isMoving", moveInput.magnitude > 0.1f);
+        }
     }
 
     void FixedUpdate()
     {
-        // Двигаем
-        rb.MovePosition(rb.position + moveInput.normalized * moveSpeed * Time.fixedDeltaTime);
+        // Движение физики
+        rb.linearVelocity = moveInput.normalized * moveSpeed;
 
-        // Поворачиваем кубик (квадрат) в сторону мышки
-        Vector2 lookDirection = mousePosition - rb.position;
-        float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg - 90f;
-        rb.rotation = angle;
+        if (Mouse.current != null && Camera.main != null && bodyRenderer != null)
+        {
+            // Получаем позицию мышки
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+
+            // ПОВОРОТ ТОЛЬКО КАРТИНКИ (чтобы не сломать ружье)
+            if (mousePos.x < transform.position.x)
+                bodyRenderer.flipX = true;
+            else
+                bodyRenderer.flipX = false;
+        }
     }
 }

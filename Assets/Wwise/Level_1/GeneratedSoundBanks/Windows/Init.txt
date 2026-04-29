@@ -1,0 +1,18 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Default Work Unit\MusicState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicState			
+	851884604	BossPhase1	MusicState			
+	851884606	BossPhase3	MusicState			
+	851884607	BossPhase2	MusicState			
+	2582085496	Exploration	MusicState			
+	2764240573	Combat	MusicState			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

@@ -5,9 +5,13 @@ using System.Collections;
 public class Skill_DashAttack : MonoBehaviour
 {
     [Header("Настройки рывка")]
-    public float dashForce = 20f; // Сделал силу чуть больше для наглядности
-    public float dashDuration = 0.2f;
+    public float dashForce = 12f;
+    public float dashDuration = 0.3f;
     public float cooldown = 15f;
+
+    [Header("Визуал и Анимация")]
+    public Animator playerAnimator; // Аниматор игрока
+    public GameObject weaponObject; // Объект ружья (weapon)
 
     [Header("Настройки атаки (Меч)")]
     public float damage = 5f;
@@ -16,98 +20,67 @@ public class Skill_DashAttack : MonoBehaviour
     public LayerMask enemyLayer;
 
     private Rigidbody2D rb;
-    private PlayerController2D playerController; // Ссылка на скрипт ходьбы
+    private PlayerController2D playerController;
     private bool isDashing = false;
     private float nextUseTime = 0f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        playerController = GetComponent<PlayerController2D>(); // Находим скрипт ходьбы на игроке
+        playerController = GetComponent<PlayerController2D>();
     }
 
     void Update()
     {
-        if (Keyboard.current == null || isDashing) return;
+        if (Mouse.current == null || isDashing) return;
 
-        // Нажали Пробел
-        if (Mouse.current.rightButton.wasPressedThisFrame)
+        if (Mouse.current.rightButton.wasPressedThisFrame && Time.time >= nextUseTime)
         {
-            if (Time.time >= nextUseTime)
-            {
-                Debug.Log("Пробел нажат! Делаем рывок!");
-                StartCoroutine(PerformDashAttack());
-                nextUseTime = Time.time + cooldown;
-            }
-            else
-            {
-                // Показывает сколько секунд осталось до отката
-                Debug.Log("Рывок на кулдауне! Осталось: " + (nextUseTime - Time.time).ToString("F1") + " сек");
-            }
+            StartCoroutine(PerformDashAttack());
+            nextUseTime = Time.time + cooldown;
         }
     }
 
     IEnumerator PerformDashAttack()
     {
         isDashing = true;
-
-        // 1. Отключаем обычную ходьбу, чтобы она не мешала рывку
         if (playerController != null) playerController.enabled = false;
 
+        // 1. ВКЛЮЧАЕМ АНИМАЦИЮ И ПРЯЧЕМ РУЖЬЕ
+        if (playerAnimator != null) playerAnimator.SetTrigger("Skill");
+        if (weaponObject != null) weaponObject.SetActive(false);
+
+        // 2. Логика рывка
+        Vector2 screenMousePos = Mouse.current.position.ReadValue();
+        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(new Vector3(screenMousePos.x, screenMousePos.y, 10f));
+        Vector2 dashDirection = ((Vector2)mouseWorldPos - (Vector2)transform.position).normalized;
+
         Health playerHealth = GetComponent<Health>();
-        if (playerHealth != null)
-        {
-            playerHealth.BecomeInvincible(dashDuration + 0.3f);
-        }
-        // 2. Толкаем игрока вперед
-        Vector2 dashDirection = transform.up;
+        if (playerHealth != null) playerHealth.BecomeInvincible(dashDuration + 0.3f);
+
         rb.linearVelocity = dashDirection * dashForce;
+        AttackEnemiesInRectangle(dashDirection);
 
-        // 3. Бьем врагов
-        AttackEnemiesInRectangle();
-
-        // 4. Ждем доли секунды, пока он летит
         yield return new WaitForSeconds(dashDuration);
 
-        // 5. Останавливаем рывок и Включаем ходьбу обратно
+        // 3. ВОЗВРАЩАЕМ РУЖЬЕ
         rb.linearVelocity = Vector2.zero;
-        if (playerController != null) playerController.enabled = true;
+        if (weaponObject != null) weaponObject.SetActive(true);
 
+        if (playerController != null) playerController.enabled = true;
         isDashing = false;
     }
 
-    void AttackEnemiesInRectangle()
+    void AttackEnemiesInRectangle(Vector2 direction)
     {
-        if (attackPoint == null)
-        {
-            Debug.LogError("ОШИБКА: Не назначена Attack Point в инспекторе!");
-            return;
-        }
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+        Vector3 zoneCenter = transform.position + (Vector3)direction * 1.5f;
 
-        Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(
-            attackPoint.position,
-            attackSize,
-            transform.eulerAngles.z,
-            enemyLayer
-        );
+        Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(zoneCenter, attackSize, angle, enemyLayer);
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            Health enemyHealth = enemy.GetComponent<Health>();
-            if (enemyHealth != null)
-            {
-                enemyHealth.TakeDamage(damage);
-                Debug.Log("Попал рывком по: " + enemy.name);
-            }
+            enemy.GetComponent<Health>()?.TakeDamage(damage);
         }
-    }
-
-    void OnDrawGizmosSelected()
-    {
-        if (attackPoint == null) return;
-        Gizmos.color = Color.red;
-        Matrix4x4 rotationMatrix = Matrix4x4.TRS(attackPoint.position, transform.rotation, Vector3.one);
-        Gizmos.matrix = rotationMatrix;
-        Gizmos.DrawWireCube(Vector3.zero, new Vector3(attackSize.x, attackSize.y, 0));
     }
 }

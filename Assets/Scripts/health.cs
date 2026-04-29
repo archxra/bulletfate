@@ -6,32 +6,25 @@ public class Health : MonoBehaviour
     public float maxHealth;
     public float currentHealth;
 
-    [Header("Отображение")]
-    public TextMesh hpText;
     private SpriteRenderer sprite;
     private Color originalColor;
 
-    // ЭТО ТЕ САМЫЕ ПЕРЕМЕННЫЕ, КОТОРЫЕ ИЩУТ ДРУГИЕ СКРИПТЫ
-    public bool isInvincible = false;
-
-    private Coroutine burnRoutine;
+    [HideInInspector] public bool isInvincible = false;
     private Coroutine flashRoutine;
+    private Coroutine burnRoutine;
 
-    void Start()
+    void Awake()
     {
-        currentHealth = maxHealth;
         sprite = GetComponent<SpriteRenderer>();
         if (sprite != null) originalColor = sprite.color;
-        UpdateText();
+        currentHealth = maxHealth;
     }
 
     public void TakeDamage(float damageAmount)
     {
-        // Если включено бессмертие - урон не проходит
         if (isInvincible) return;
 
         currentHealth -= damageAmount;
-        UpdateText();
 
         if (sprite != null)
         {
@@ -42,22 +35,7 @@ public class Health : MonoBehaviour
         if (currentHealth <= 0) Die();
     }
 
-    // МЕТОД ДЛЯ ВКЛЮЧЕНИЯ БЕССМЕРТИЯ (нужен для рывка и ульты 3-го перса)
-    public void BecomeInvincible(float duration)
-    {
-        StartCoroutine(InvincibilityRoutine(duration));
-    }
-
-    private IEnumerator InvincibilityRoutine(float duration)
-    {
-        isInvincible = true;
-        if (sprite != null) sprite.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0.5f);
-        yield return new WaitForSeconds(duration);
-        if (sprite != null) sprite.color = originalColor;
-        isInvincible = false;
-    }
-
-    // СИСТЕМА ГОРЕНИЯ
+    // Метод для Горения
     public void ApplyBurn(float tickDamage, float duration)
     {
         if (isInvincible) return;
@@ -68,45 +46,46 @@ public class Health : MonoBehaviour
     IEnumerator BurnProcess(float dmg, float dur)
     {
         float elapsed = 0;
-        if (sprite != null) sprite.color = new Color(1f, 0.5f, 0f);
+        if (sprite != null) sprite.color = new Color(1f, 0.5f, 0f); // Оранжевый
 
         while (elapsed < dur)
         {
             yield return new WaitForSeconds(1f);
             currentHealth -= dmg;
-            UpdateText();
             elapsed += 1f;
-
-            if (currentHealth <= 0)
-            {
-                Die();
-                yield break;
-            }
+            if (currentHealth <= 0) { Die(); yield break; }
         }
-
         if (sprite != null) sprite.color = originalColor;
         burnRoutine = null;
     }
 
     IEnumerator DamageFlash()
     {
-        sprite.color = Color.white;
-        yield return new WaitForSeconds(0.1f);
-
-        // Возвращаем правильный цвет (оранжевый если горит, иначе родной)
-        if (burnRoutine != null) sprite.color = new Color(1f, 0.5f, 0f);
-        else sprite.color = originalColor;
-
+        sprite.color = Color.red; // Вспышка красным
+        yield return new WaitForSeconds(0.15f);
+        sprite.color = (burnRoutine != null) ? new Color(1f, 0.5f, 0f) : originalColor;
         flashRoutine = null;
     }
 
-    void UpdateText()
+    // МЕТОД ДЛЯ РЫВКОВ
+    public void BecomeInvincible(float duration)
     {
-        if (hpText != null) hpText.text = currentHealth + " / " + maxHealth;
+        StartCoroutine(InvincibilityRoutine(duration));
+    }
+
+    IEnumerator InvincibilityRoutine(float duration)
+    {
+        isInvincible = true;
+        if (sprite != null) sprite.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0.5f);
+        yield return new WaitForSeconds(duration);
+        if (sprite != null) sprite.color = originalColor;
+        isInvincible = false;
     }
 
     void Die()
     {
-        Destroy(gameObject);
+        var deathScript = GetComponent<PlayerDeath>();
+        if (deathScript != null) deathScript.Die();
+        else Destroy(gameObject);
     }
 }
