@@ -26,6 +26,11 @@ public class Health : MonoBehaviour
 
         currentHealth -= damageAmount;
 
+        if (CompareTag("Player"))
+        {
+            VisualSfxPlayer.PlayPlayerDamage();
+        }
+
         if (sprite != null)
         {
             if (flashRoutine != null) StopCoroutine(flashRoutine);
@@ -35,7 +40,7 @@ public class Health : MonoBehaviour
         if (currentHealth <= 0) Die();
     }
 
-    // Ìåòîä äëÿ Ãîðåíèÿ
+    //   
     public void ApplyBurn(float tickDamage, float duration)
     {
         if (isInvincible) return;
@@ -46,7 +51,7 @@ public class Health : MonoBehaviour
     IEnumerator BurnProcess(float dmg, float dur)
     {
         float elapsed = 0;
-        if (sprite != null) sprite.color = new Color(1f, 0.5f, 0f); // Îðàíæåâûé
+        if (sprite != null) sprite.color = new Color(1f, 0.5f, 0f); // 
 
         while (elapsed < dur)
         {
@@ -61,13 +66,13 @@ public class Health : MonoBehaviour
 
     IEnumerator DamageFlash()
     {
-        sprite.color = Color.red; // Âñïûøêà êðàñíûì
+        sprite.color = Color.red; //  
         yield return new WaitForSeconds(0.15f);
         sprite.color = (burnRoutine != null) ? new Color(1f, 0.5f, 0f) : originalColor;
         flashRoutine = null;
     }
 
-    // ÌÅÒÎÄ ÄËß ÐÛÂÊÎÂ
+    //   
     public void BecomeInvincible(float duration)
     {
         StartCoroutine(InvincibilityRoutine(duration));
@@ -84,6 +89,12 @@ public class Health : MonoBehaviour
 
     void Die()
     {
+        if (GetComponent<Boss_SpiderQueen_Complete>() != null || GetComponent<Boss_Spider_Skills>() != null)
+        {
+            VisualSfxPlayer.PlayBossKilled();
+            VisualSfxPlayer.LoadMainMenuAfterDelay(2f);
+        }
+
         var deathScript = GetComponent<PlayerDeath>();
         if (deathScript != null) deathScript.Die();
         else Destroy(gameObject);

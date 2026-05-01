@@ -4,13 +4,23 @@ using UnityEngine.InputSystem;
 public class PlayerAttack2D : MonoBehaviour
 {
     public GameObject bulletPrefab;
-    public Transform firePoint; // Пустышка на конце ствола ружья
+    public Transform firePoint; //     
     public float attackCooldown = 0.8f;
 
-    [Tooltip("Аниматор ружья (объект WeaponSprite)")]
+    [Tooltip("  ( WeaponSprite)")]
     public Animator weaponAnimator;
 
     private float nextFireTime = 0f;
+    private DiegoSfxPlayer diegoSfx;
+
+    void Awake()
+    {
+        diegoSfx = GetComponent<DiegoSfxPlayer>();
+        if (diegoSfx == null)
+        {
+            diegoSfx = gameObject.AddComponent<DiegoSfxPlayer>();
+        }
+    }
 
     void Update()
     {
@@ -18,6 +28,7 @@ public class PlayerAttack2D : MonoBehaviour
 
         if (Mouse.current.leftButton.isPressed && Time.time >= nextFireTime)
         {
+            Debug.Log("[DiegoSfx] LMB detected");
             Shoot();
             nextFireTime = Time.time + attackCooldown;
         }
@@ -27,20 +38,21 @@ public class PlayerAttack2D : MonoBehaviour
     {
         if (firePoint == null || bulletPrefab == null) return;
 
-        // В 2D мы просто берем поворот самого ружья (firePoint крутится вместе с ним)
-        // Если пуля летит "боком", нужно добавить смещение угла (например, +90 или -90)
-        // В нашем случае, если спрайт пули смотрит вверх, используем этот код:
+        //  2D       (firePoint    )
+        //    "",     (, +90  -90)
+        //   ,     ,   :
 
         Vector2 screenMousePos = Mouse.current.position.ReadValue();
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(new Vector3(screenMousePos.x, screenMousePos.y, 10f));
         Vector2 direction = (Vector2)mouseWorldPos - (Vector2)firePoint.position;
 
-        // Считаем угол и вычитаем 90 градусов (стандарт для 2D-спрайтов, смотрящих вверх)
+        //     90  (  2D-,  )
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
 
         Instantiate(bulletPrefab, firePoint.position, Quaternion.Euler(0, 0, angle));
+        diegoSfx?.PlayShoot();
 
-        // Вызываем анимацию выстрела
+        //   
         if (weaponAnimator != null)
         {
             weaponAnimator.SetTrigger("Fire");

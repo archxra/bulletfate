@@ -4,18 +4,18 @@ using System.Collections.Generic;
 
 public class RoomManager : MonoBehaviour
 {
-    // Создаем специальный класс для настройки спавна
+    //      
     [System.Serializable]
     public class SpawnSettings
     {
-        public GameObject enemyPrefab; // Кого спавним
-        public Transform spawnPoint;   // Где спавним
+        public GameObject enemyPrefab; //  
+        public Transform spawnPoint;   //  
     }
 
-    [Header("Настройки спавна")]
-    public SpawnSettings[] enemiesToSpawn; // Список: пара "Враг + Точка"
+    [Header(" ")]
+    public SpawnSettings[] enemiesToSpawn; // :  " + "
 
-    [Header("Двери")]
+    [Header("")]
     public GameObject[] doors;
 
     private bool isRoomActive = false;
@@ -25,6 +25,7 @@ public class RoomManager : MonoBehaviour
     void Start()
     {
         foreach (GameObject door in doors) door.SetActive(false);
+        SetDoorVisualVisible(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -39,10 +40,11 @@ public class RoomManager : MonoBehaviour
     {
         isRoomActive = true;
 
-        // 1. Закрываем двери
+        // 1.  
         foreach (GameObject door in doors) door.SetActive(true);
+        SetDoorVisualVisible(false);
 
-        // 2. Спавним конкретных врагов в конкретных точках
+        // 2.      
         foreach (SpawnSettings setup in enemiesToSpawn)
         {
             if (setup.enemyPrefab != null && setup.spawnPoint != null)
@@ -74,5 +76,18 @@ public class RoomManager : MonoBehaviour
         isRoomActive = false;
         isFinished = true;
         foreach (GameObject door in doors) door.SetActive(false);
+    }
+
+    private void SetDoorVisualVisible(bool isVisible)
+    {
+        foreach (GameObject door in doors)
+        {
+            if (door == null) continue;
+            SpriteRenderer[] renderers = door.GetComponentsInChildren<SpriteRenderer>(true);
+            foreach (SpriteRenderer renderer in renderers)
+            {
+                renderer.enabled = isVisible;
+            }
+        }
     }
 }

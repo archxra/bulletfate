@@ -23,11 +23,17 @@ public class Skill_DashAttack : MonoBehaviour
     private PlayerController2D playerController;
     private bool isDashing = false;
     private float nextUseTime = 0f;
+    private DiegoSfxPlayer diegoSfx;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         playerController = GetComponent<PlayerController2D>();
+        diegoSfx = GetComponent<DiegoSfxPlayer>();
+        if (diegoSfx == null)
+        {
+            diegoSfx = gameObject.AddComponent<DiegoSfxPlayer>();
+        }
     }
 
     void Update()
@@ -36,6 +42,8 @@ public class Skill_DashAttack : MonoBehaviour
 
         if (Mouse.current.rightButton.wasPressedThisFrame && Time.time >= nextUseTime)
         {
+            Debug.Log("[DiegoSfx] RMB detected");
+            diegoSfx?.PlayAbility();
             StartCoroutine(PerformDashAttack());
             nextUseTime = Time.time + cooldown;
         }

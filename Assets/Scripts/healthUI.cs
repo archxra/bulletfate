@@ -8,6 +8,11 @@ public class UI_HealthDisplay : MonoBehaviour
 
     void Update()
     {
+        if (hpText != null)
+        {
+            hpText.color = Color.red;
+        }
+
         // »щем активного игрока и его скрипт Health
         if (currentPlayerHealth == null || !currentPlayerHealth.gameObject.activeInHierarchy)
         {
